@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>1.表单域</h4>
+    在HTML标签中，&lt;form&gt;标签用于定义表单域<br />
+
+    <form action="demo.php" method="post" name="name1">
+        <!-- text 文本框 用户可以在里面输入任何文字 -->
+        用户名：<input type="text" name="username" value="请输入用户名" maxlength="6"> <br />
+        <!-- password 密码框 用户看不见输入的密码 -->
+        密码：<input type="password" name="password" value="pwd"> <br />
+        <!-- radio是单选按钮，可以实现多选一 -->
+        <!-- name是表单元素名字 这里性别单选按钮必须有相同的名字name，才可以实现多选一 -->
+        <!-- 单选按钮和复选框可以设置check属性，当页面打开是可以默认选中这个按钮 -->
+        性别：男<input type="radio" name="sex" value="男" checked="checked"> 女<input type="radio" name="sex" value="女"> <br />
+        <!-- radio是多选按钮，可以实现多选的效果 -->
+        爱好：吃饭<input type="checkbox" name="hobby" value="吃饭"> 睡觉<input type="checkbox" name="hobby" value="睡觉"> 打游戏<input type="checkbox" name="hobby" value="游戏" checked="checked">
+        <br />
+        <input type="submit" value="进入">
+        <!-- 重置按钮可以还原表单元素初始的默认状态 -->
+        <input type="reset" value="重新设置">
+        <!-- 普通按钮 botton 结合js使用 -->
+        <input type="button" value="获取验证码"><br />
+        <!-- 文件域 上传文件使用的 -->
+        <input type="file" value="选择文件">
+
+        
+    </form>
+</body>
+</html>

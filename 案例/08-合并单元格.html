@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    跨行用rowspan<br />
+    跨列用colspan<br />
+
+    <table align="left" border="1" width="500" height="250" cellspacing="0">
+        <tr>
+            <td></td>
+            <!-- 从第二个单元格开始合并 -->
+            <td colspan="2"></td>
+            <!-- 2表示合并两个单元格 -->
+        </tr>
+        <tr>
+            <!-- 从第一个单元格开始合并 -->
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
