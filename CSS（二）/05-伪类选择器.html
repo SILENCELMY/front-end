@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: orange;
+        }
+        a:hover {
+            color: skyblue;
+        }
+        a:active {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    伪类选择器最大的特点是用冒号：表示,遵循LVHA的顺序
+    <p>a:link 选择所有未被访问的链接</p>
+    <p>a:visited 选择所有已被访问的链接</p>
+    <p>a:hover 选择鼠标指针位于其上的链接</p>
+    <p>a:active 选择活动链接（鼠标按下未弹起的链接）</p>
+    <a href="#">沉默</a>
+
+</body>
+</html>
