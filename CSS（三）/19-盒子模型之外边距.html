@@ -8,13 +8,19 @@
         div {
             width: 200px;
             height: 200px;
-            border: 1px solid blue;/*不能放在下面 因为就近原则*/
-            /* 层叠性 只是层叠了上边框*/
-            border-top: 1px solid red;
+            background-color: pink;
+        }
+        /* .one {
+            margin-bottom: 20px;
+        } */
+        .two {
+            margin: 30px 50px;
+            /* margin简写方式与padding完全一致 */
         }
     </style>
 </head>
 <body>
-    <div></div>
+    <div class="one">1</div>
+    <div class="two">2</div>
 </body>
 </html>
