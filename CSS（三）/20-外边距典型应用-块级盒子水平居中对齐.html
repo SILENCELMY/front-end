@@ -5,22 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
-            width: 200px;
+        .header {
+            width: 900px;
             height: 200px;
             background-color: pink;
-        }
-        /* .one {
-            margin-bottom: 20px;
-        } */
-        .two {
-            margin: 30px 50px;
-            /* margin简写方式与padding完全一致 */
+            margin: 100px auto;
         }
     </style>
 </head>
 <body>
-    <div class="one">1</div>
-    <div class="two">2</div> 
+    外边距可以让块级盒子居中，但是必须满足两个条件：
+    1.盒子必须指定了宽度。
+    2.盒子左右的外边距设置为auto。
+    <div class="header"></div>
 </body>
 </html>
