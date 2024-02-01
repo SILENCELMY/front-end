@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+            /* box-shadow: 10px 10px 10px 10px black; */
+            /* 在最后加上inset是内阴影 而outset不能写 */
+             /* box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .3); */
+        }
+        div:hover {
+            box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .3);
+            /* 鼠标经过后有阴影 */
+            /* 必须有前两个值，表示水平阴影和垂直阴影 */
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    不占用盒子空间
+</body>
+</html>
