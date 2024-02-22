@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            float: left;
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+        /* 如果行内元素有了浮动，则不需要转换块级元素就可以直接给高度和宽度 */
+        p {
+            float: right;
+            height: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <span>1</span>    
+    <span>2</span>
+
+    <p>p</p>
+    <!-- 如果块级盒子没有设置宽度，默认宽度和父级一样宽，但是添加浮动后，它的大小根据内容来决定 -->
+</body>
+</html>
